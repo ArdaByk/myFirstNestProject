@@ -14,7 +14,7 @@ import entities from './typeorm';
         type: 'mysql',
         host: configService.get<string>("HOST"),
         port: configService.get<number>("PORT"),
-        username: "root",
+        username: "username",
         password: configService.get<string>("PASSWORD"),
         database: configService.get<string>("DATABASE"),
         entities: entities,
